@@ -1,0 +1,108 @@
+/*Styles for the Minor Project*/
+
+
+/*the whole body*/
+ body { padding: 0;
+		margin: 0; }
+
+/*cover page*/		
+.cover { position:absolute; 
+		width:100%; 
+		height:100%;
+		background-color: #666666; }
+		
+.coverBackground { background-image: url(../Images/cover.jpg);
+		 background-repeat: no-repeat; 
+		 background-size: 100% 100%; 
+		 background-attachment: fixed;
+		 background-position: center;
+		 position: absolute; 
+		 width: 100%; 
+		 height: 100%; }
+
+.bookingContainer { position: absolute;
+		top: 10px;
+		left: 690px; 
+		padding: 0;
+		margin: 0;}
+		
+.bookingBoarder { min-width: 130px;
+		max-width: 200px;
+		min-height: 40px;
+		max-height: 50px; 
+		z-index: 5;}
+		
+.bookingWord { position: absolute;
+		font-family: "Lato", Monospace;
+		font-size: 20px; 
+		color: #FFFFFF; 
+		top: 10px;
+		left: 15px;
+		z-index: 6;}
+		
+.bookingHoverContainer{ position: absolute;
+		top: 0;
+		left: 0;
+		padding: 0;
+		margin: 0; }
+		
+.bookingHover { min-width: 130px;
+		max-width: 200px;
+		min-height: 40px;
+		max-height: 50px;
+		display: none; 
+		z-index: 7; }
+		
+.bookingContainer:hover .bookingHover { display:block; }
+
+.bookingContainer:hover .bookingWord { color: #795c4a; 
+		z-index: 8; }
+
+/*hotel name*/		 
+.nameContainer { position: absolute; 
+		top: 230px;
+		left: 500px; }
+		
+.name { min-width: 100px;
+		min-height: 100px;}
+		
+.sub1 { position: absolute;
+		top: 640px;
+		left: 550px;
+		font-family: "Lato", Monospace;
+		font-size: 20px; 
+		color: #FFFFFF;
+		z-index: 1;}
+		
+.sub2 { position: absolute;
+		top: 25px;
+		left: 55px;
+		font-family: "Lato", Monospace;
+		font-size: 20px; 
+		color: #FFFFFF; 
+		z-index: 2;}
+	
+/*Down Arrow*/	
+.arrowContainer { position: absolute;
+		top: 60px;
+		left: 200px; 
+		padding: 0;
+		margin: 0; }
+		
+.downArrow{ position: absolute;
+		min-width: 10px;
+		max-width: 30px;
+		min-height: 5px;
+		max-height: 30px; }
+
+
+		
+		
+		
+/*About Page*/
+.about{ position: absolute;
+		width: 100%;
+		min-height: 2000px;
+		max-height: 2200px; 
+		top: 729px;
+		background-color: #666666;}
