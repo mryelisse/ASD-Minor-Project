@@ -6,12 +6,12 @@
 		margin: 0; }
 
 /*cover page*/		
-.cover { position:absolute; 
-		width:100%; 
+.cover{ position:absolute; 
+		width: 1518px; 
 		height:100%;
 		background-color: #666666; }
 		
-.coverBackground { background-image: url(../Images/cover.jpg);
+.coverBackground{ background-image: url(../Images/cover.jpg);
 		 background-repeat: no-repeat; 
 		 background-size: 100% 100%; 
 		 background-attachment: fixed;
@@ -20,20 +20,20 @@
 		 width: 100%; 
 		 height: 100%; }
 
-.bookingContainer { position: absolute;
+.bookingContainer{ position: absolute;
 		top: 10px;
 		left: 690px; 
 		padding: 0;
 		margin: 0;}
 		
-.bookingBoarder { min-width: 130px;
+.bookingBoarder{ min-width: 130px;
 		max-width: 200px;
 		min-height: 40px;
 		max-height: 50px; 
 		z-index: 5;}
 		
 .bookingWord { position: absolute;
-		font-family: "Lato", Monospace;
+		font-family: "Lato";
 		font-size: 20px; 
 		color: #FFFFFF; 
 		top: 10px;
@@ -46,44 +46,44 @@
 		padding: 0;
 		margin: 0; }
 		
-.bookingHover { min-width: 130px;
+.bookingHover{ min-width: 130px;
 		max-width: 200px;
 		min-height: 40px;
 		max-height: 50px;
 		display: none; 
 		z-index: 7; }
 		
-.bookingContainer:hover .bookingHover { display:block; }
+.bookingContainer:hover .bookingHover{ display:block; }
 
-.bookingContainer:hover .bookingWord { color: #795c4a; 
+.bookingContainer:hover .bookingWord{ color: #795c4a; 
 		z-index: 8; }
 
 /*hotel name*/		 
-.nameContainer { position: absolute; 
+.nameContainer{ position: absolute; 
 		top: 230px;
 		left: 500px; }
-		
-.name { min-width: 100px;
+	
+.name{ min-width: 100px;
 		min-height: 100px;}
 		
-.sub1 { position: absolute;
+.sub1{ position: absolute;
 		top: 640px;
 		left: 550px;
-		font-family: "Lato", Monospace;
+		font-family: "Lato";
 		font-size: 20px; 
 		color: #FFFFFF;
 		z-index: 1;}
 		
-.sub2 { position: absolute;
+.sub2{ position: absolute;
 		top: 25px;
 		left: 55px;
-		font-family: "Lato", Monospace;
+		font-family: "Lato";
 		font-size: 20px; 
 		color: #FFFFFF; 
 		z-index: 2;}
 	
 /*Down Arrow*/	
-.arrowContainer { position: absolute;
+.arrowContainer{ position: absolute;
 		top: 60px;
 		left: 200px; 
 		padding: 0;
@@ -96,13 +96,207 @@
 		max-height: 30px; }
 
 
+
 		
 		
 		
 /*About Page*/
 .about{ position: absolute;
 		width: 100%;
-		min-height: 2000px;
+		min-height: 2030px;
 		max-height: 2200px; 
 		top: 729px;
 		background-color: #666666;}
+
+
+/*Features div*/
+.features{ position: absolute;
+		width: 100%;
+		min-height: 780px;
+		max-height: 780px; 
+		top: 0; }
+		
+#swimmingContainer{ position: absolute;
+		top: 0;
+		left: 0; 
+		padding: 0;
+		margin: 0; }	
+
+#swimmingContainer div{ position: absolute;
+		width: 510px;
+		height: 390px; }	
+
+.boatContainer{ position: absolute;
+		top: 0;
+		left: 508px; 
+		padding: 0;
+		margin: 0; }
+		
+.boat{ position: absolute;
+		min-width: 500px;
+		max-width: 500px;
+		min-height: 390px;
+		max-height: 400px;}	
+
+#massageContainer{ position: absolute;
+		top: 0;
+		left: 1008px; 
+		padding: 0;
+		margin: 0; }	
+
+#massageContainer div{ position: absolute;
+		width: 510px;
+		height: 390px; }		
+		
+.waveContainer{ position: absolute;
+		top: 390px;
+		left: 0; 
+		padding: 0;
+		margin: 0; }
+		
+.wave{ position: absolute;
+		min-width: 508px;
+		max-width: 508px;
+		min-height: 390px;
+		max-height: 400px;}
+		
+#nightContainer{ position: absolute;
+		top: 390px;
+		left: 508px; 
+		padding: 0;
+		margin: 0; }	
+
+#nightContainer div{ position: absolute;
+		width: 500px;
+		height: 390px; }	
+
+
+.sunriseContainer{ position: absolute;
+		top: 390px;
+		left: 1008px; 
+		padding: 0;
+		margin: 0; }
+		
+.sunrise{ position: absolute;
+		min-width: 510px;
+		max-width: 510px;
+		min-height: 390px;
+		max-height: 400px; }			
+
+		
+
+		
+/*Description page*/	
+.description{ position: absolute;
+		width: 100%;
+		min-height: 750px;
+		max-height: 750px; 
+		top: 780px; }	
+
+.mapContainer{ position: absolute;
+		top: 0;
+		left: 0; 
+		padding: 0;
+		margin: 0; 
+		min-width: 759px;
+		max-width: 770px;
+		min-height: 750px;
+		max-height: 750px;
+		background-color: #68cfe0; }	
+
+.location{ position: absolute;
+		top: 80px;
+		left: 260px; 
+		padding: 0;
+		margin: 0; 
+		min-width: 200px;
+		max-width: 230px;
+		min-height: 90px;
+		max-height: 100px;}
+
+.map{ position: absolute;
+		top: 245px;
+		left: 145px; 
+		padding: 0;
+		margin: 0; 
+		min-width: 550px;
+		max-width: 550px;
+		min-height: 550px;
+		max-height: 550px; }
+
+.facilitiesContainer{ position: absolute;
+		top: 0;
+		left: 759px; 
+		padding: 0;
+		margin: 0; 
+		min-width: 759px;
+		max-width: 770px;
+		min-height: 750px;
+		max-height: 750px;
+		background-color: #dad9d6; }
+
+.facilities{ position: absolute;
+		top: 80px;
+		left: 260px; 
+		padding: 0;
+		margin: 0; 
+		min-width: 200px;
+		max-width: 230px;
+		min-height: 90px;
+		max-height: 100px; }
+
+.paragraph1{ position: absolute;
+		top: 210px;
+		left: 180px; 
+		padding: 0;
+		margin: 0; 
+		min-width: 400px;
+		max-width: 430px;
+		min-height: 150px;
+		max-height: 150px; }
+		
+.paragraph1 p{ font-family: "Lato";
+		font-size: 18px; 
+		text-align: center; }		
+		
+.paragraph2{ position: absolute;
+		top: 360px;
+		left: 180px; 
+		padding: 0;
+		margin: 0; 
+		min-width: 400px;
+		max-width: 430px;
+		min-height: 20px;
+		max-height: 20px; }
+		
+.paragraph2 p{ font-family: "Lato";
+		font-size: 18px; 
+		text-align: center; }	
+
+.unorderedList1{ position: absolute;
+		top: 420px;
+		left: 120px; 
+		padding: 0;
+		margin: 0; 
+		min-width: 280px;
+		max-width: 280px;
+		min-height: 200px;
+		max-height: 200px; }
+		
+.unorderedList1 ul li{ font-family: "Lato";
+		font-size: 16px; 
+		text-align: left; }				
+		
+.unorderedList2{ position: absolute;
+		top: 420px;
+		left: 410px; 
+		padding: 0;
+		margin: 0; 
+		min-width: 280px;
+		max-width: 280px;
+		min-height: 200px;
+		max-height: 200px; }
+		
+.unorderedList2 ul li{ font-family: "Lato";
+		font-size: 16px; 
+		text-align: left; }			
